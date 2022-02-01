@@ -13,6 +13,7 @@ use brokiem\snpc\entity\BaseNPC;
 use brokiem\snpc\entity\CustomHuman;
 use brokiem\snpc\entity\npc\AxolotlNPC;
 use brokiem\snpc\entity\npc\BatNPC;
+use brokiem\snpc\entity\npc\BBGuardian;
 use brokiem\snpc\entity\npc\BlazeNPC;
 use brokiem\snpc\entity\npc\ChickenNPC;
 use brokiem\snpc\entity\npc\CowNPC;
@@ -75,7 +76,8 @@ class NPCManager {
         VillagerNPC::class => ["villager_snpc", "simplenpc:villager"],
         WitchNPC::class => ["witch_snpc", "simplenpc:witch"],
         WolfNPC::class => ["wolf_snpc", "simplenpc:wolf"],
-        ZombieNPC::class => ["zombie_snpc", "simplenpc:zombie"]
+        ZombieNPC::class => ["zombie_snpc", "simplenpc:zombie"],
+        BBGuardian::class => ["bbguardian_snpc", "simplenpc::bbguardian"]
     ];
 
     public function getDefaultNPCs(): array {
