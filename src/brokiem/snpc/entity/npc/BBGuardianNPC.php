@@ -13,7 +13,7 @@ use brokiem\snpc\entity\BaseNPC;
 use pocketmine\entity\EntitySizeInfo;
 use pocketmine\network\mcpe\protocol\types\entity\EntityIds;
 
-class BBGuardian extends BaseNPC {
+class BBGuardianNPC extends BaseNPC {
 
     public float $height = 2;
     public float $width = 2;
